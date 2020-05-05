@@ -14,3 +14,12 @@ $headers-font: "Nunito", "Helvetica", "sans-serif";
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+
+@font-face {
+  font-family: "Spiritwell";
+  src: font-url('spiritwell.eot');
+  src: font-url('spiritwell.eot?#iefix') format('embedded-opentype'),
+       font-url('spiritwell.woff') format('woff'),
+       font-url('spiritwell.ttf') format('truetype')
+}
+$spiritwell: "Spiritwell";
