@@ -1,20 +1,20 @@
 .frog-mail-gif {
-  content: asset-url('frogmail2.png');
+  content: asset-url('frogmail2.gif');
   max-width: 180px;
   min-width: 0px;
   flex: 0 1 auto;
   margin: 24px 0;
 
-  &:hover {
-    content: asset-url('frogmail2-noloop.gif');
-  }
+  // &:hover {
+  //   content: asset-url('frogmail2-noloop.gif');
+  // }
 
-  &--cover {
-    content: asset-url('frogmail2.png');
-    margin-top: -124px;
+  // &--cover {
+  //   content: asset-url('frogmail2.png');
+  //   margin-top: -124px;
 
-    &:hover {
-      opacity: 0;
-    }
-  }
+  //   &:hover {
+  //     opacity: 0;
+  //   }
+  // }
 }
