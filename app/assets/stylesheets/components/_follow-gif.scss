@@ -1,0 +1,13 @@
+.follow-gif {
+  content: asset-url('following.gif');
+  max-width: 560px;
+  min-width: 0px;
+  flex: 0 1 auto;
+  margin: 16px 8px;
+}
+
+@media (max-width: 580px) {
+  .follow-gif {
+    max-width: calc(100% - 16px);
+  }
+}
