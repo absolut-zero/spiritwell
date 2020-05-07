@@ -21,6 +21,16 @@
     margin-bottom: 36px;
   }
 
+  &--left-align {
+    margin-left: 8px;
+    margin-right: auto;
+    text-align: left;
+  }
+
+  &--underline {
+    border-bottom: 1px solid black;
+  }
+
   &--link {
     color: $blue;
     text-decoration: none;
