@@ -7,4 +7,18 @@
     font-size: 10px;
     color: $gray;
   }
+
+  &--large {
+    font-size: 64px;
+  }
+
+  &--link {
+    color: $blue;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+      color: $gray;
+    }
+  }
 }
