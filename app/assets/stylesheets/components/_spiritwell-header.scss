@@ -1,0 +1,12 @@
+.spiritwell-header {
+  content: asset-url('SPIRITWELL3x.png');
+  max-width: 580px;
+  min-width: 0px;
+  flex: 0 1 auto;
+}
+
+@media (max-width: 580px) {
+  .spiritwell-header {
+    max-width: 100%;
+  }
+}
